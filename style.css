@@ -61,6 +61,10 @@ body{
   margin-top: 48px;
 }
 
+.text{
+    font-size: 130%;
+}
+
 .footer {
   color: #757575;
   position: absolute;
@@ -104,9 +108,9 @@ body{
   margin:  auto;
   margin:  auto;
   margin-top: 0;
-  top: 60px;
+  top: 50px;
 }
 
-.mdl-tooltip{
-
+.find_me{
+  text-align: center;
 }
