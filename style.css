@@ -2,6 +2,7 @@ body{
   font-family: "Roboto", "arial", sans-serif;
   position: relative;
   min-width: 565px;
+  max-height: 100%;
 }
 
 .ribbon {
