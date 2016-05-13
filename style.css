@@ -8,12 +8,8 @@ body{
 .ribbon {
   width: 100%;
   height: 40vh;
-  /*background-color: #4CAF50;*/
+  background-color: #F5F5F5;
   flex-shrink: 0;
-  background-image: url("images/background.jpg");
-  background-size:cover;
-  background-position-y: -64px;
-  background-repeat: no-repeat;
 }
 
 .main {
@@ -23,14 +19,34 @@ body{
 
 .header .mdl-layout__header-row {
   padding-left: 40px;
-  color: #FFFFFF;
-  height:64px;
+  height: 64px;
+  color: #E65100;
   min-width: min-content;
-  background-image: url("images/background.jpg");
+  background-position-y: -104px;
+
+
+}
+
+.header_bgd{
+  height:100%;
+  width: 100%;
+  brightness: 50%;
+  filter: blur(5px) brightness(80%);
+  -webkit-filter: blur(5px) brightness(80%) grayscale(20%);
+  transform: scale(1.5);
+}
+
+.header_title{
+  position: absolute;
+  left: 40px;
+  top: 2.7%;
+}
+
+.top_bgd{
+  background-image: url("images/background_1.jpg");
   background-size:cover;
   background-repeat: no-repeat;
-   opacity: 0.9;
-  -webkit-filter: grayscale(35%);
+  background-position-x: center;
 }
 
 #title_url{
@@ -50,7 +66,7 @@ body{
 }
 
 .space{
-  width: calc(30% - 16px);
+  width: calc(29% - 16px);
 }
 
 .content {
@@ -61,7 +77,7 @@ body{
   margin-top: 150px;
   margin-bottom: 40px;
   text-align: justify;
-  width: calc(40% - 16px);
+  width: calc(42% - 16px);
   min-width:50vh;
   position: relative;
 }
