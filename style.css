@@ -8,7 +8,7 @@ body{
 .ribbon {
   width: 100%;
   height: 40vh;
-  background-color: #F5F5F5;
+  background-color: #8BC34A;
   flex-shrink: 0;
 }
 
@@ -19,39 +19,20 @@ body{
 
 .header .mdl-layout__header-row {
   padding-left: 40px;
-  height: 64px;
-  color: #E65100;
   min-width: min-content;
-  background-position-y: -104px;
 
-
-}
-
-.header_bgd{
-  height:100%;
-  width: 100%;
-  brightness: 50%;
-  filter: blur(5px) brightness(80%);
-  -webkit-filter: blur(5px) brightness(80%) grayscale(20%);
-  transform: scale(1.5);
-}
-
-.header_title{
-  position: absolute;
-  left: 40px;
-  top: 2.7%;
 }
 
 .top_bgd{
-  background-image: url("images/background_1.jpg");
+  background-image: url("images/background_4.jpg");
   background-size:cover;
   background-repeat: no-repeat;
-  background-position-x: center;
+  background-position: center;
 }
 
 #title_url{
-  color: #FFFFFF;
   text-decoration: none;
+  color: #FF8F00;
 }
 
 
@@ -61,8 +42,9 @@ body{
   margin: 0 auto;
 }
 
-#title{
+#name{
   text-align: center;
+  color: #FF8F00;
 }
 
 .space{
