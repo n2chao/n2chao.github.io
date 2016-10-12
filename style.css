@@ -43,6 +43,7 @@ body{
 
 #welcome{
   text-align: center;
+  margin-bottom: 16px;
   color: #FF8F00;
 }
 
@@ -72,7 +73,13 @@ body{
 }
 
 .text{
-    font-size: 130%;
+  text-align: center;
+  font-size: 130%;
+}
+
+#school{
+  margin-bottom: 48px;
+  font-size: 150%;
 }
 
 .footer {
