@@ -3,18 +3,24 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Nathan Chao's simple personal website.">
-  <meta name="viewport" content="width=device-width, height=905px">
   <title>Nathan Chao</title>
+  <meta name="description" content="Nathan Chao's personal website.">
+  <meta name="author" content="Nathan Chao">
+  <meta name="viewport" content="width=device-width, height=905px">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.orange-amber.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="icons/favicon.png">
   <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 
 <body>
+    <div id="overlay">
+      <!-- <div id="loading" class="mdl-spinner mdl-js-spinner mdl-spinner--single-color is-active"></div> -->
+    </div>
+
     <div class="layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
       <header class="header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-800">
         <div class="mdl-layout__header-row mdl">
@@ -25,8 +31,8 @@
       <div class="ribbon mdl-color--grey-100 top_bgd"></div>
       <main class="main mdl-layout__content">
         <div class="container mdl-grid">
-          <div class="space mdl-cell mdl-cell--4-col mdl-cell--hide-tablet mdl-cell--2-col-phone"></div>
-          <div class="content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet mdl-cell--4-col-phone	">
+          <div class="space mdl-cell mdl-cell--3-col mdl-cell--hide-tablet mdl-cell--2-col-phone"></div>
+          <div class="content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--4-col-phone	">
             <div id="inside">
               <img id="pouchonLOL" src="images/tronche.png"/>
               <h3 id="welcome">Welcome!<br>My name is Nathan</h2>
@@ -60,5 +66,11 @@
         </footer>
       </main>
     </div>
+
+      <script language="javascript" type="text/javascript">
+       $(window).load(function() {
+       $('#overlay').fadeOut(750);
+        });
+      </script>
   </body>
 </html>
