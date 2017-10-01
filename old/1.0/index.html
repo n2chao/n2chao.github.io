@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nathan Chao</title>
+  <meta name="description" content="Nathan Chao's personal website.">
+  <meta name="author" content="Nathan Chao">
+  <meta name="viewport" content="width=device-width, height=905px">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.orange-amber.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="icons/favicon.png">
+  <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="overlay">
+      <!-- <div id="loading" class="mdl-spinner mdl-js-spinner mdl-spinner--single-color is-active"></div> -->
+    </div>
+
+    <div class="layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+      <header class="header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-800">
+        <div class="mdl-layout__header-row mdl">
+          <span class="header_title mdl-layout-title"><a id="title_url" href="http://www.nathanchao.com">nathanchao.com</a></span>
+          <div class="mdl-layout-spacer"></div>
+        </div>
+      </header>
+      <div class="ribbon mdl-color--grey-100 top_bgd"></div>
+      <main class="main mdl-layout__content">
+        <div class="container mdl-grid">
+          <div class="space mdl-cell mdl-cell--3-col mdl-cell--hide-tablet mdl-cell--2-col-phone"></div>
+          <div class="content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--4-col-phone	">
+            <div id="inside">
+              <img id="pouchonLOL" src="images/tronche.png"/>
+              <h3 id="welcome">Welcome!<br>My name is Nathan</h2>
+                <p class="text" id="school">
+                  Software Engineering Student
+                  <br>
+                  Concordia University, Montreal
+                </p>
+                <p class="text">
+                  A tech enthusiast that loves coding and learning
+                </p>
+
+                <div id="links">
+                  <p class="text find_me">
+                    Connect with me below!
+                  </p>
+                  <a class="links" id="github_link" href="https://github.com/n2chao" target="_blank"><img class="icons" src="icons/github_round_100px.png" alt="GitHub icon"/></a>
+                  <a class="links" id="linkedin_link" href="https://www.linkedin.com/in/n2chao" target="_blank"><img class="icons" src="icons/linkedin_round_100px.png" alt="LinkedIn icon"/></a>
+                  <a class="links" id="facebook_link" href="https://www.facebook.com/n2chao" target="_blank"><img class="icons" src="icons/facebook_round_100px.png" alt="Facebook icon"/></a>
+                  <a class="links" id="mail_link" href="mailto:n2chao@gmail.com?Subject=Hi%20Nathan!" target="_blank"><img class="icons" src="icons/mail_round_100px.png" alt="Mail icon"/></a>
+                </div>
+                <div class="mdl-tooltip mdl-tooltip--large mdl-tooltip--bottom" for="github_link">My project</div>
+                <div class="mdl-tooltip mdl-tooltip--large mdl-tooltip--bottom" for="linkedin_link">Hire me</div>
+                <div class="mdl-tooltip mdl-tooltip--large mdl-tooltip--bottom" for="facebook_link">Let's be friends</div>
+                <div class="mdl-tooltip mdl-tooltip--large mdl-tooltip--bottom" for="mail_link">n2chao@gmail.com</div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+            <a id="footer_link" href="#">© 2016 Nathan Chao</a>
+        </footer>
+      </main>
+    </div>
+
+      <script language="javascript" type="text/javascript">
+       $(window).load(function() {
+       $('#overlay').fadeOut(750);
+        });
+      </script>
+  </body>
+</html>
